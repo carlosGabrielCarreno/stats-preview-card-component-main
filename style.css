@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+}
+/* styles card */
+.card {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 1em;
+  width: 380px;
+}
+@media (min-width: 1220px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-direction: row-reverse;
+  }
+
+  .img {
+    border-radius: 0;
+    -webkit-appearance: none;
+    /* border-bottom-right-radius: 1em; */
+  }
+}
+.img {
+  width: 100%;
+  filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%));
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+/* data card */
+.data-card {
+  text-align: center;
+}
+
+.h1 {
+  font-size: 2em;
+}
+
+.text-violet {
+  color: hsl(277, 64%, 61%);
+}
+
+.h1,
+.p-data-card,
+.box {
+  margin: 1em 0;
+  padding: 0 1em;
+}
+
+.p-data-card {
+  color: hsl(246, 11%, 51%);
+}
+
+.numbers {
+  padding: 1em 0;
+}
+
+.p-box-numbers {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.p-text-box {
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+}
