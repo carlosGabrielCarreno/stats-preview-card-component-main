@@ -1,4 +1,4 @@
-## page: https://gabrielcarrenio.github.io/stats-preview-card-component-main/
+### <a href="https://gabrielcarrenio.github.io/stats-preview-card-component-main/">link</a>
 # Frontend Mentor - Stats preview card component
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
