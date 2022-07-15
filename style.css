@@ -47,6 +47,7 @@ body {
     margin: 0;
     padding: 1em;
     font-size: 0.7rem;
+    text-align: start;
   }
 
   .data-card {
